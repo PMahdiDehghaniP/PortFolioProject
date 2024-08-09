@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.ttf");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LaleZar";
+  src: url("../fonts/Lalezar-Regular.ttf");
+  src: url("../fonts/Lalezar-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lalezar-Regular.woff2") format("woff2"),
+    url("../fonts/Lalezar-Regular.woff") format("woff"),
+    url("../fonts/Lalezar-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.MuiCard-root::-webkit-scrollbar {
+  display: none;
+}

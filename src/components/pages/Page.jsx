@@ -1,0 +1,20 @@
+import { Box} from "@mui/material";
+const Page = (props) => {
+  const { children, index, pageNumber, ...others } = props;
+  return (
+    <div
+      role="tabpanel"
+      hidden={pageNumber !== index}
+      id={`tabpanel-${index}`}
+      aria-labelledby={`sidebar-tab-${index}`}
+      {...others}
+    >
+      {pageNumber === index && (
+        <Box sx={{height:"100vh"}}>
+          {children}
+        </Box>
+      )}
+    </div>
+  );
+};
+export default Page;
